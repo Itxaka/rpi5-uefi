@@ -24,6 +24,7 @@ jobs:
       matrix:
         MODEL:
           - 5
+          - 4
         CONFIGURATION: [Debug, Release]
     steps:
       - name: Checkout
